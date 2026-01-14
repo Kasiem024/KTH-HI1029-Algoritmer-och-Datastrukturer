@@ -18,10 +18,20 @@ public class DirectoryEntry {
         this.number=number;
     }
 
-    public boolean equals(DirectoryEntry e){
-        if (this == e){
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
             return true;
         }
-        return this.name.equals(e.name);
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        DirectoryEntry other = (DirectoryEntry) o;
+
+        return this.name.equals(other.name);
     }
 }
+
+// Svar på 2.4 Self Check 1
+// 1.1: {0, 1, 2, 3, 4, 4, 4, 4}
+// 1.2: {0, 1, 2, 3, 4, 4, 5, 6}
