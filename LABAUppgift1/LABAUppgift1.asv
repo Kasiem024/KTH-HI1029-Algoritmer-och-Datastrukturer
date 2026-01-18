@@ -1,0 +1,30 @@
+n = 1:20;
+Tn = [1, 7, 25, 65, 140, 266, 462, 750, 1155, 1705, 2431, 3367, 4550, 6020, 7820, 9996, 12597, 15675, 19285, 23485];
+
+% Beräkna koefficienter för grad 2, 3 och 4
+p2 = polyfit(n, Tn, 2);
+p3 = polyfit(n, Tn, 3);
+p4 = polyfit(n, Tn, 4);
+
+% Beräkna teoretiska värden för respektive polynom
+fit2 = polyval(p2, n);
+fit3 = polyval(p3, n);
+fit4 = polyval(p4, n);
+
+% Beräkna residualer (skillnaden mellan mätning och modell)
+res2 = Tn - fit2;
+res3 = Tn - fit3;
+res4 = Tn - fit4;
+
+disp(['Max-fel grad 2: ', num2str(max(abs(res2)))]);
+disp(['Max-fel grad 3: ', num2str(max(abs(res3)))]);
+disp(['Max-fel grad 4: ', num2str(max(abs(res4)))]);
+
+plot(n, Tn, 'ro', n, fit2, 'b-');
+plot(n, Tn, 'ro', n, fit, 'b-');
+plot(n, Tn, 'ro', n, fit4, 'b-');
+
+legend('Mätvärden', 'Polynom grad 4');
+xlabel('n');
+ylabel('T(n)');
+title('Numerisk analys av T(n)');
