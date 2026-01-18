@@ -8,11 +8,9 @@ public class NB4Main {
         System.out.println(parChecker.isBalanced("(()()(()())((())))()"));
         System.out.println(parChecker.isBalanced("(((){}[])[]{()}){}"));
         System.out.println(parChecker.isBalanced("[{}([]{})]"));
-
         System.out.println(parChecker.isBalanced("({)}"));
         System.out.println(parChecker.isBalanced("())"));
         System.out.println(parChecker.isBalanced("{[]([(){]}}"));
-
         System.out.println(parChecker.isBalanced("[[]"));
     }
 }
