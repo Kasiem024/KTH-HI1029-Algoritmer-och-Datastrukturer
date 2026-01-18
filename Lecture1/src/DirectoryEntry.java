@@ -31,7 +31,3 @@ public class DirectoryEntry {
         return this.name.equals(other.name);
     }
 }
-
-// Svar på 2.4 Self Check 1
-// 1.1: {0, 1, 2, 3, 4, 4, 4, 4}
-// 1.2: {0, 1, 2, 3, 4, 4, 5, 6}

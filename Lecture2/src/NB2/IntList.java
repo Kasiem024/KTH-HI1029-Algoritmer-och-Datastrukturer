@@ -1,3 +1,5 @@
+package NB2;
+
 import java.util.Arrays;
 
 public class IntList {

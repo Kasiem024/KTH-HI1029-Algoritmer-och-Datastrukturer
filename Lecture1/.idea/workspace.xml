@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="957c9851-7f75-4749-af7e-ac5ac5ff7cfb" name="Changes" comment="" />
+    <list default="true" id="8d74f82d-1b97-48c0-a36b-9e31f4c89724" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Lecture1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/Lecture1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/DirectoryEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/KArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/P1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/P2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture1/src/PhoneDirectory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/Lecture2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/src/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/src/NB2Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/src/NB3Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture2/Lecture2/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture3/src/NB7_1_PP4/NB7_1_PP4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture3/src/NB7_1_PP4/NB7_1_PP4Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture3/src/NB7_2_PP4/NB7_2_PP4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture3/src/NB7_2_PP4/NB7_2_PP4Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,22 +41,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kasiem024"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kasiem024&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kasiem024/KTH-HI1029-Algoritmer-och-Datastrukturer",
-    "accountId": "0b87ed47-c5e6-44ef-a618-3cb2bca70ed4"
-  }
-}]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="38FpmD1MHJ8j6Atr57Orpdx8t5w" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kasiem024/KTH-HI1029-Algoritmer-och-Datastrukturer&quot;,
+    &quot;accountId&quot;: &quot;0b87ed47-c5e6-44ef-a618-3cb2bca70ed4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="38Qbae8vOVpFvbtf5U0lPLECO6o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,11 +73,11 @@
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="957c9851-7f75-4749-af7e-ac5ac5ff7cfb" name="Changes" comment="" />
-      <created>1768405329545</created>
+      <changelist id="8d74f82d-1b97-48c0-a36b-9e31f4c89724" name="Changes" comment="" />
+      <created>1768734806586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768405329545</updated>
+      <updated>1768734806586</updated>
     </task>
     <servers />
   </component>

@@ -1,3 +1,5 @@
+package NB2;
+
 public class NB2Main {
     public static void main(String[] args) {
 

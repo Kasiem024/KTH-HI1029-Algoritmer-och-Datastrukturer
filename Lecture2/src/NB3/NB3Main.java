@@ -1,3 +1,4 @@
+package NB3;
 
 public class NB3Main {
     public static void main(String[] args) {
