@@ -1,10 +1,8 @@
 package NB8;
 
 import java.util.AbstractQueue;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.concurrent.ExecutionException;
 
 public class ArrayQueue<E> extends AbstractQueue<E> {
     private int front, rear, size, maxSize;
@@ -73,7 +71,6 @@ public class ArrayQueue<E> extends AbstractQueue<E> {
     public void shrink() {
         if (((double) size / maxSize) > 0.25) throw new IllegalStateException();
         if (maxSize <= 1) return;
-
 
         int newMaxSize = maxSize / 2;
         E[] newData = (E[]) new Object[newMaxSize];
