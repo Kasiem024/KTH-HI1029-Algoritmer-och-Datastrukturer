@@ -1,0 +1,4 @@
+Audi 2020 200
+BMW 2023 100
+Volkswagen 2004 500
+Ferrari 2025 20
